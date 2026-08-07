@@ -32,7 +32,6 @@
             margin: 40px auto;
             padding: 0 20px;
             display: grid;
-            /* This makes it responsive. It will fit as many 300px cards as possible per row */
             grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
             gap: 30px;
         }
@@ -66,7 +65,7 @@
             padding: 20px;
             display: flex;
             flex-direction: column;
-            flex-grow: 1; /* Pushes the button to the bottom */
+            flex-grow: 1;
         }
 
         .card h2 {
@@ -77,7 +76,7 @@
 
         /* Button Styling */
         .btn {
-            margin-top: auto; /* Keeps button at the bottom of the card */
+            margin-top: auto;
             display: inline-block;
             background-color: #3498db;
             color: white;
@@ -130,10 +129,9 @@
 
         <!-- 1. Fire Insc Calc -->
         <div class="card">
-            <img src="https://images.unsplash.com/photo-1582967788606-a171c1080cb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80" alt="Building on Fire">
+            <img src="" alt="Building on Fire">
             <div class="card-content">
                 <h2>Fire Insurance Calculator</h2>
-                <!-- target="_blank" makes it open in a new tab -->
                 <a href="https://ashokkumar1322.github.io/NIA-Fire/" target="_blank" rel="noopener noreferrer" class="btn">Open Calculator ↗</a>
             </div>
         </div>
